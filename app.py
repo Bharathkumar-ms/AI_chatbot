@@ -16,13 +16,13 @@ warnings.filterwarnings('ignore')
 load_dotenv()
 hf_token = os.getenv("HF_TOKEN")
 
-st.set_page_config(page_title="Chatbot", layout="centered")
+st.set_page_config(page_title="AIChatbot", layout="centered")
 
 st.markdown(
     """
     <h1 style="color: #008000; text-align: center;">
         <div style="display: flex; align-items: center; justify-content: center;">   
-            Chatbot
+            AI Chatbot
             <img src="https://www.pngfind.com/pngs/m/126-1269385_chatbots-builder-pricing-crozdesk-chat-bot-png-transparent.png" alt="Chatbot Logo" width="80" height="80" style="margin-right: 10px;">
         </div>
     </h1>
