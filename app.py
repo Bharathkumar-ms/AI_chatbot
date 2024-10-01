@@ -6,6 +6,7 @@ from langchain_community.llms import HuggingFaceEndpoint
 from langchain.chains import LLMChain
 from langchain_core.prompts import PromptTemplate
 from langchain_core.prompts import MessagesPlaceholder
+from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
 import os
 from dotenv import load_dotenv
